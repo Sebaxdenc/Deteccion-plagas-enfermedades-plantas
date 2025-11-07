@@ -1,0 +1,24 @@
+# Librerías para análisis de datos y machine learning
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+scikit-learn>=1.1.0
+
+# Librerías para procesamiento de imágenes
+opencv-python>=4.5.0
+Pillow>=8.0.0
+tensorflow>=2.8.0
+tensorflow-datasets>=4.6.0
+
+# Librerías para análisis estadístico
+scipy>=1.8.0
+
+# Jupyter notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Herramientas adicionales
+tqdm>=4.64.0
+requests>=2.28.0

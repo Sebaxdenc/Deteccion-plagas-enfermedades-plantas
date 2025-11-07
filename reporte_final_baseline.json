@@ -1,0 +1,63 @@
+{
+  "proyecto_info": {
+    "titulo": "Clasificaci\u00f3n Autom\u00e1tica de Enfermedades en Plantas - Modelos Baseline",
+    "dataset": "Plant Village Dataset",
+    "num_clases": 13,
+    "total_imagenes": 17776,
+    "especies": 3
+  },
+  "resultados_principales": {
+    "mejor_modelo_baseline": "CNN Simple",
+    "accuracy_baseline": 0.9603487253189087,
+    "precision_baseline": 0.9606201727653906,
+    "recall_baseline": 0.9603487064116986,
+    "f1_score_baseline": 0.9600181242414273
+  },
+  "comparacion_modelos": {
+    "ranking_modelos": [
+      {
+        "modelo": "CNN Simple",
+        "accuracy": 0.9603487253189087,
+        "precision": 0.9606201727653906,
+        "recall": 0.9603487064116986,
+        "f1_score": 0.9600181242414273
+      },
+      {
+        "modelo": "SVM",
+        "accuracy": 0.6093333333333333,
+        "precision": 0.6203096911290183,
+        "recall": 0.6093333333333333,
+        "f1_score": 0.5855560950229731
+      },
+      {
+        "modelo": "Random Forest",
+        "accuracy": 0.37733333333333335,
+        "precision": 0.36181376875698956,
+        "recall": 0.37733333333333335,
+        "f1_score": 0.30132896427996375
+      }
+    ]
+  },
+  "analisis_dataset": {
+    "plantas_sanas": 3,
+    "plantas_enfermas": 10,
+    "especies_unicas": 3,
+    "distribucion_especies": {
+      "Pepper__bell": 2,
+      "Potato": 3,
+      "Tomato": 8
+    }
+  },
+  "recomendaciones_produccion": {
+    "modelo_recomendado": "CNN Simple",
+    "accuracy_implementacion": 0.9603487253189087,
+    "viable_produccion": true
+  },
+  "archivos_generados": [
+    "resultados_baseline.json",
+    "info_preparacion.json",
+    "dataset_info.csv",
+    "label_encoder_classes.npy",
+    "cnn_simple_best.h5"
+  ]
+}

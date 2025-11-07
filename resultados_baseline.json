@@ -1,0 +1,26 @@
+{
+  "CNN Simple": {
+    "accuracy": 0.9603487253189087,
+    "precision": 0.9606201727653906,
+    "recall": 0.9603487064116986,
+    "f1_score": 0.9600181242414273,
+    "samples_train": 11376,
+    "notes": "Red neuronal convolucional b\u00e1sica"
+  },
+  "Random Forest": {
+    "accuracy": 0.37733333333333335,
+    "precision": 0.36181376875698956,
+    "recall": 0.37733333333333335,
+    "f1_score": 0.30132896427996375,
+    "samples_train": 3000,
+    "notes": "Caracter\u00edsticas de imagen + PCA"
+  },
+  "SVM": {
+    "accuracy": 0.6093333333333333,
+    "precision": 0.6203096911290183,
+    "recall": 0.6093333333333333,
+    "f1_score": 0.5855560950229731,
+    "samples_train": 1000,
+    "notes": "Subset peque\u00f1o por eficiencia computacional"
+  }
+}

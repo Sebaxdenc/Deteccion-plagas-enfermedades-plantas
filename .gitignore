@@ -1,0 +1,83 @@
+# Archivos de datos grandes
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+archive*
+
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.cache
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.env
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Outputs de notebooks
+.ipynb_checkpoints/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de configuración específicos del usuario
+.pytest_cache/
+.coverage
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Archivos de base de datos
+*.db
+*.sqlite3
+
+# Modelos entrenados (pueden ser muy grandes)
+*.h5
+*.model
+*.pkl
+*.joblib
+models/
+checkpoints/
